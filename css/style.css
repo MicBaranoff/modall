@@ -177,7 +177,7 @@ table {
   color: #fff;
   margin-bottom: 15px;
 }
-.app-notofication .modal-box .box p span {
+.app-notofication .modal-box .box p span:not(#sys) {
   font-weight: bold;
 }
 .app-notofication .modal-box .box p img {
